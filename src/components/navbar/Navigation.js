@@ -10,9 +10,9 @@ export default function Navigation() {
 	// 	setColor("bg-red-600");
 	// };
 	return (
-		<ul className='bg-red-500 text-white flex justify-between px-24 py-6 items-center'>
+		<ul className='bg-blue-500 text-white flex justify-between px-24 py-6 items-center'>
 			<Link to='/'>
-				<li className='font-black text-3xl'>Goat</li>
+				<li className='font-black text-3xl'>Toto</li>
 			</Link>
 			<div className='flex items-center space-x-5'>
 				{dataNav.map((item) => (
